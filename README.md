@@ -1,13 +1,23 @@
-# image_compresser
-Compress Image and also create thumbnails 
 
-How it's work!
+# Image Compressor
 
-  1. Place your image in Normal_image folder; 
-  2. Run index.php on cmd by issue [php index.php] command.
-  3. You can find your compressed image in Compressed_image folder.
-  4. And thumbnail can be find in Thumbnail folder
-  
-  If you dont want thumbnail you can comment the thumbnail object in index.php
-  
-  Note: Currently it only support jpeg/jeg and png images.
+A simple PHP script to compress images and generate thumbnails.
+
+## How It Works
+
+1. Place your image(s) inside the `Normal_image` folder.
+2. Run the script using the command:  
+   ```bash
+   php index.php
+   ```
+3. The compressed images will be saved in the `Compressed_image` folder.
+4. Thumbnails will be generated and saved in the `Thumbnail` folder.
+
+> **Note:** If you do not want thumbnails to be generated, you can comment out the thumbnail object in the `index.php` file.
+
+## Supported Formats
+
+- `.jpeg` / `.jpg`
+- `.png`
+
+---
